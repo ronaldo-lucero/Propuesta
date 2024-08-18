@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres ser mi novia?</title>
+    <style>
+        body {
+            background-color: #f3e8d9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .question {
+            font-size: 72px;
+            font-weight: bold;
+            color: black;
+            text-align: center;
+            position: relative;
+        }
+        .heart {
+            position: absolute;
+            animation: float 4s infinite;
+        }
+        .heart:nth-child(2) {
+            left: 10%;
+            animation-duration: 3s;
+        }
+        .heart:nth-child(3) {
+            left: 20%;
+            animation-duration: 5s;
+        }
+        .heart:nth-child(4) {
+            left: 30%;
+            animation-duration: 4s;
+        }
+        .heart:nth-child(5) {
+            left: 40%;
+            animation-duration: 6s;
+        }
+        .heart:nth-child(6) {
+            left: 50%;
+            animation-duration: 3.5s;
+        }
+        .heart:nth-child(7) {
+            left: 60%;
+            animation-duration: 5.5s;
+        }
+        .heart:nth-child(8) {
+            left: 70%;
+            animation-duration: 4.5s;
+        }
+        .heart:nth-child(9) {
+            left: 80%;
+            animation-duration: 5.2s;
+        }
+        .heart:nth-child(10) {
+            left: 90%;
+            animation-duration: 4.8s;
+        }
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="question">
+        ¿Quieres ser mi novia?
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+        <div class="heart">❤️</div>
+    </div>
+</body>
+</html>
